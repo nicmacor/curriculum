@@ -1,0 +1,75 @@
+/*Imporamos para usar las fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/*Fuentes y colores*/
+
+/*para los h1 y h2*/
+h1 {
+    color: red;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    color: green;
+}
+/*Universal*/
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+/*una cosa que tenga class especifica*/
+.subtitulo {
+    font-family: Georgia, serif;
+}
+
+/*Color de texto y de fondo*/
+#escudo {
+    background-color: black;
+}
+
+/*Se pueden combinar cosas como id, clase, etiqueta (puede usarse para cosas mas especificas*/
+#habilidades .subtituloH {
+    background-color: black;
+}
+
+section .subtitulo {
+    background-color: violet;
+}
+
+section h2.subtituloH{
+    background-color: black;
+    color: white;
+    
+}
+
+/*Como cambiar propiedades de texto*/
+a{
+    text-decoration: none;
+}
+
+/*Como cambiar modelo de caja*/
+#escudo{
+    border: 12pt solid yellow;
+    padding: 1.1rem;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-bottom: 2px;
+    margin-right: 20%;
+}
+
+/*Como centrar elementos*/
+
+#escudo{
+    text-align: center;
+}
+
+
+
+
+    
+
+
+    
+        
+    
