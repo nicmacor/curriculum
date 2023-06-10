@@ -14,7 +14,7 @@
     color: whitesmoke;
 }
 
-/*Como cambiar modelo de caja*/
+/*Como cambiar modelo de caja
 #escudo{
     border: 12pt;
     padding: 1.1rem;
@@ -44,11 +44,11 @@ main{
 }
 
 #experienciaLaboral{
-    width: 49%;
+    width: 45%;
 }
 
 #habilidadesTecnicas{
-    width: 49;
+    width: 45%;
 }
 
 #proyectos{
