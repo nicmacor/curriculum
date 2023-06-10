@@ -14,34 +14,9 @@
     color: whitesmoke;
 }
 
-/*Color de texto y de fondo
-#escudo {
-    background-color: black;
-}
-
-/*Se pueden combinar cosas como id, clase, etiqueta (puede usarse para cosas mas especificas
-#habilidades .subtituloH {
-    background-color: black;
-}
-
-section .subtitulo {
-    background-color: violet;
-}
-
-section h2.subtituloH{
-    background-color: black;
-    color: white;
-    
-}
-
-Como cambiar propiedades de texto
-a{
-    text-decoration: none;
-}
-
-Como cambiar modelo de caja
+/*Como cambiar modelo de caja*/
 #escudo{
-    border: 12pt solid yellow;
+    border: 12pt;
     padding: 1.1rem;
     margin-top: 10px;
     margin-left: 25%;
@@ -55,6 +30,46 @@ Como cambiar modelo de caja
     text-align: center;
 }
 
+h1{
+    text-align: center;
+    color: white;
+}
+
+main{
+    display: flex;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#experienciaLaboral{
+    width: 99%;
+}
+
+#habilidadesTecnicas{
+    width: 99%;
+}
+
+#proyectos{
+    width: 99%;
+}
+
+#Educacion{
+    width: 99%;
+}
+
+#certificados{
+    width: 99%;
+}
+
+#referencias{
+    width: 99%;
+}
+
+#contactame{
+    width: 99%;
+}
 
 
 
