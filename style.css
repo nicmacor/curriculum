@@ -1,34 +1,25 @@
 /*Imporamos para usar las fuentes*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
 
 /*Fuentes y colores*/
 
-/*para los h1 y h2*/
-h1 {
-    color: red;
-    font-family: Georgia, serif;
+/*Selector universal*/
+
+*{ background-color: darkslategrey;
+
 }
 
-h2 {
-    color: green;
-}
-/*Universal*/
-
-* {
-    font-family: Arial, sans-serif;
-}
-
-/*una cosa que tenga class especifica*/
+/*para los subtitulos h2*/
 .subtitulo {
-    font-family: Georgia, serif;
+    color: whitesmoke;
 }
 
-/*Color de texto y de fondo*/
+/*Color de texto y de fondo
 #escudo {
     background-color: black;
 }
 
-/*Se pueden combinar cosas como id, clase, etiqueta (puede usarse para cosas mas especificas*/
+/*Se pueden combinar cosas como id, clase, etiqueta (puede usarse para cosas mas especificas
 #habilidades .subtituloH {
     background-color: black;
 }
@@ -43,12 +34,12 @@ section h2.subtituloH{
     
 }
 
-/*Como cambiar propiedades de texto*/
+Como cambiar propiedades de texto
 a{
     text-decoration: none;
 }
 
-/*Como cambiar modelo de caja*/
+Como cambiar modelo de caja
 #escudo{
     border: 12pt solid yellow;
     padding: 1.1rem;
@@ -56,7 +47,7 @@ a{
     margin-left: 25%;
     margin-bottom: 2px;
     margin-right: 20%;
-}
+}*/
 
 /*Como centrar elementos*/
 
